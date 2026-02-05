@@ -1,5 +1,4 @@
 
-
 print("\n============= CALCULATOR =============\n")
 
 # ------- INPUT ----------
@@ -18,13 +17,12 @@ while True:
     except ValueError:
         print("We calculate with numbers only!\n")
 
-
+op_list = ["+","-","*","/"]
 while True:
-    op_list = ["+","-","*","/"]
     operator = input("\nSelect the operation ( +, -, *, /): ")
     if operator in op_list:
         break
-    print("We only provides these operations: ( +, -, *, /)")
+    print("We only provide these operations: ( +, -, *, /)")
 
 
 # ------- CALCULATE --------
@@ -43,7 +41,6 @@ def calculate(num1, num2, operator):
             print(f"\nThe division of {num1} and {num2} is ", num1 / num2)
     else:
         print("\nOperation cannot be done.")
-        return 0
 
 # ------ MAIN -------
 
@@ -51,5 +48,4 @@ def main():
     calculate(num1, num2, operator)
 
 if __name__ == "__main__":
-
     main()
