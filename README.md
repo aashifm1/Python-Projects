@@ -1,6 +1,6 @@
 # Python Practice
 
-> This repository contains my basic Python practice programs. 
+> This repository contains my basic Python projects. 
 
 ✅ This repo will keep growing as I learn more.
 
