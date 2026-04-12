@@ -19,7 +19,7 @@ Either the program is simple or hard, i try to learn and code with python concep
 - Stationary Store
 - Streamlit Website (Account Registeration)
 - Iceage Hotel
-
+- Text extraction from Image (Tesseract)
 
 ## Execution
 
